@@ -1,0 +1,92 @@
+[41.505813599] 2018-01-10 21:46:32,624 - INFO - launcher: Starting sanity checks
+[42.005538940] 2018-01-10 21:46:32,624 - INFO - launcher: Checking for Python 3.5+
+[42.005538940] 2018-01-10 21:46:32,624 - INFO - launcher: Checking console encoding
+[42.505979538] 2018-01-10 21:46:32,625 - INFO - launcher: Setting console encoding to UTF-8
+[42.505979538] 2018-01-10 21:46:32,625 - INFO - launcher: Ensuring we're in the right environment
+[44.005632401] 2018-01-10 21:46:32,626 - INFO - launcher: Adding local bins/ folder to path
+[44.506549835] 2018-01-10 21:46:32,627 - INFO - launcher: Required checks passed.
+[45.006752014] 2018-01-10 21:46:32,627 - INFO - launcher: Optional checks passed.
+[45.506238937] 2018-01-10 21:46:32,628 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[1.8192760944366455] 2018-01-10 21:46:34,401 - DEBUG - musicbot.bot | In bot.py::MainThread(6540), line 213 in _setup_logging: Set logging level to INFO
+[1.8197765350341797] 2018-01-10 21:46:34,402 - INFO - musicbot.bot | In bot.py::MainThread(6540), line 80 in __init__: =========== MusicBot (version 1.9.6_1) ===========
+[1.8202764987945557] 2018-01-10 21:46:34,402 - INFO - musicbot.bot | In bot.py::MainThread(6540), line 86 in __init__: Loaded autoplaylist with 2531 entries
+[1.821276426] launcher-INFO: Connecting
+[5.7504153251647949] 2018-01-10 21:46:38,333 - DEBUG - musicbot.bot | In bot.py::MainThread(6540), line 1011 in on_ready: Connection established, ready to go.
+[5.7504153251647949] 2018-01-10 21:46:38,333 - DEBUG - musicbot.bot | In bot.py::MainThread(6540), line 324 in _cache_app_info: Caching app info
+[6.0564942359924316] 2018-01-10 21:46:38,639 - DEBUG - musicbot.bot | In bot.py::MainThread(6540), line 828 in _scheck_ensure_env: Ensuring data folders exist
+[6.0589544773101807] 2018-01-10 21:46:38,641 - DEBUG - musicbot.bot | In bot.py::MainThread(6540), line 844 in _scheck_server_permissions: Checking server permissions
+[6.0594544410705566] 2018-01-10 21:46:38,642 - DEBUG - musicbot.bot | In bot.py::MainThread(6540), line 848 in _scheck_autoplaylist: Auditing autoplaylist
+[6.0594544410705566] 2018-01-10 21:46:38,642 - DEBUG - musicbot.bot | In bot.py::MainThread(6540), line 852 in _scheck_configs: Validating config
+[6.0594544410705566] 2018-01-10 21:46:38,642 - DEBUG - musicbot.config | In config.py::MainThread(6540), line 155 in async_validate: Validating options...
+[6.0594544410705566] 2018-01-10 21:46:38,642 - DEBUG - musicbot.config | In config.py::MainThread(6540), line 169 in async_validate: Acquired owner id via API
+[6.0599546432495117] 2018-01-10 21:46:38,642 - DEBUG - musicbot.bot | In bot.py::MainThread(6540), line 855 in _scheck_configs: Validating permissions config
+[6.0599546432495117] 2018-01-10 21:46:38,642 - DEBUG - musicbot.permissions | In permissions.py::MainThread(6540), line 59 in async_validate: Validating permissions...
+[6.0599546432495117] 2018-01-10 21:46:38,642 - DEBUG - musicbot.permissions | In permissions.py::MainThread(6540), line 63 in async_validate: Fixing automatic owner group
+[6.0599546432495117] 2018-01-10 21:46:38,642 - INFO - musicbot.bot | In bot.py::MainThread(6540), line 1022 in on_ready: Connected to Discord!
+[6.0609607696533203] 2018-01-10 21:46:38,643 - INFO - musicbot.bot | In bot.py::MainThread(6540), line 1032 in on_ready: Bot:   400533894744637440/Personality#1383 [BOT]
+[6.0614666938781738] 2018-01-10 21:46:38,644 - INFO - musicbot.bot | In bot.py::MainThread(6540), line 1040 in on_ready: Owner: 183768588476219392/Zylos#0951
+
+[6.0619547367095947] 2018-01-10 21:46:38,644 - INFO - musicbot.bot | In bot.py::MainThread(6540), line 1043 in on_ready: Server List:
+[6.0624549388885498] 2018-01-10 21:46:38,645 - INFO - musicbot.bot | In bot.py::MainThread(6540), line 1044 in <listcomp>:  - The Wild Sneks 🐍
+[6.0629546642303467] 2018-01-10 21:46:38,645 - INFO - musicbot.bot | In bot.py::MainThread(6540), line 1044 in <listcomp>:  - The Realm
+[6.0634548664093018] 2018-01-10 21:46:38,646 - INFO - musicbot.bot | In bot.py::MainThread(6540), line 1088 in on_ready: Not bound to any text channels
+[6.0644547939300537] 2018-01-10 21:46:38,647 - INFO - musicbot.bot | In bot.py::MainThread(6540), line 1114 in on_ready: Not autojoining any voice channels
+[6.0644547939300537] 2018-01-10 21:46:38,647 - INFO - musicbot.bot | In bot.py::MainThread(6540), line 1118 in on_ready: Options:
+[6.0649552345275879] 2018-01-10 21:46:38,647 - INFO - musicbot.bot | In bot.py::MainThread(6540), line 1120 in on_ready:   Command prefix: !
+[6.0659673213958740] 2018-01-10 21:46:38,648 - INFO - musicbot.bot | In bot.py::MainThread(6540), line 1121 in on_ready:   Default volume: 25%
+[6.0664558410644531] 2018-01-10 21:46:38,649 - INFO - musicbot.bot | In bot.py::MainThread(6540), line 1123 in on_ready:   Skip threshold: 4 votes or 50%
+[6.0669555664062500] 2018-01-10 21:46:38,649 - INFO - musicbot.bot | In bot.py::MainThread(6540), line 1124 in on_ready:   Now Playing @mentions: Disabled
+[6.0674552917480469] 2018-01-10 21:46:38,650 - INFO - musicbot.bot | In bot.py::MainThread(6540), line 1125 in on_ready:   Auto-Summon: Enabled
+[6.0679562091827393] 2018-01-10 21:46:38,650 - INFO - musicbot.bot | In bot.py::MainThread(6540), line 1126 in on_ready:   Auto-Playlist: Disabled
+[6.0689556598663330] 2018-01-10 21:46:38,651 - INFO - musicbot.bot | In bot.py::MainThread(6540), line 1127 in on_ready:   Auto-Pause: Enabled
+[6.0699555873870850] 2018-01-10 21:46:38,652 - INFO - musicbot.bot | In bot.py::MainThread(6540), line 1128 in on_ready:   Delete Messages: Enabled
+[6.0709557533264160] 2018-01-10 21:46:38,653 - INFO - musicbot.bot | In bot.py::MainThread(6540), line 1130 in on_ready:     Delete Invoking: Disabled
+[6.0714559555053711] 2018-01-10 21:46:38,654 - INFO - musicbot.bot | In bot.py::MainThread(6540), line 1131 in on_ready:   Debug Mode: Disabled
+[6.0719556808471680] 2018-01-10 21:46:38,654 - INFO - musicbot.bot | In bot.py::MainThread(6540), line 1132 in on_ready:   Downloaded songs will be saved
+[6.0739562511444092] 2018-01-10 21:46:38,656 - INFO - musicbot.bot | In bot.py::MainThread(6540), line 258 in _join_startup_channels: Found owner in "Sugar Mansion"
+[6.0744564533233643] 2018-01-10 21:46:38,657 - INFO - musicbot.bot | In bot.py::MainThread(6540), line 267 in _join_startup_channels: Attempting to join The Wild Sneks 🐍/Sugar Mansion
+[6.0749564170837402] 2018-01-10 21:46:38,657 - DEBUG - musicbot.bot | In bot.py::MainThread(6540), line 437 in get_voice_client: Connection attempt 1 to Sugar Mansion
+[6.0749564170837402] 2018-01-10 21:46:38,657 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(6540), line 376 in join_voice_channel: (join_voice_channel) creating futures
+[6.0754570960998535] 2018-01-10 21:46:38,658 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(6540), line 382 in join_voice_channel: (join_voice_channel) setting voice state
+[6.0759572982788086] 2018-01-10 21:46:38,658 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(6540), line 385 in join_voice_channel: (join_voice_channel) waiting for session id
+[6.3699932098388672] 2018-01-10 21:46:38,952 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(6540), line 2564 in on_voice_state_update: Voice state update for 400533894744637440/Personality#1383 on The Wild Sneks 🐍/Sugar Mansion -> [JOIN, CONNECT]
+[6.3704938888549805] 2018-01-10 21:46:38,953 - INFO - musicbot.bot | In bot.py::MainThread(6540), line 2575 in on_voice_state_update: 400533894744637440/Personality#1383 has joined The Wild Sneks 🐍/Sugar Mansion
+[6.3719940185546875] 2018-01-10 21:46:38,954 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(6540), line 389 in join_voice_channel: (join_voice_channel) waiting for voice data
+[6.5730195045471191] 2018-01-10 21:46:39,155 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(6540), line 403 in join_voice_channel: (join_voice_channel) connecting...
+[7.2276167869567871] 2018-01-10 21:46:39,810 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(6540), line 415 in join_voice_channel: (join_voice_channel) connection successful
+[7.2276167869567871] 2018-01-10 21:46:39,810 - DEBUG - musicbot.bot | In bot.py::MainThread(6540), line 463 in get_voice_client: Connected in 1.2s
+[7.2276167869567871] 2018-01-10 21:46:39,810 - INFO - musicbot.bot | In bot.py::MainThread(6540), line 464 in get_voice_client: Connected to The Wild Sneks 🐍/Sugar Mansion
+[7.2291018962860107] 2018-01-10 21:46:39,811 - INFO - musicbot.bot | In bot.py::MainThread(6540), line 283 in _join_startup_channels: Joined The Wild Sneks 🐍/Sugar Mansion
+[7.2301025390625000] 2018-01-10 21:46:39,812 - VOICEDEBUG - musicbot.player | In player.py::MainThread(6540), line 311 in websocket_check: Starting websocket check loop for The Wild Sneks 🐍
+[51.9515225887298584] 2018-01-10 21:47:24,534 - INFO - musicbot.bot | In bot.py::MainThread(6540), line 2395 in on_message: 183768588476219392/Zylos#0951: !play life on mars
+[65.0616130828857422] 2018-01-10 21:47:37,644 - DEBUG - musicbot.bot | In bot.py::MainThread(6540), line 781 in serialize_queue: Serializing queue for 241747637131280384
+[65.0681133270263672] 2018-01-10 21:47:37,650 - INFO - musicbot.entry | In entry.py::MainThread(6540), line 195 in _download: Download cached: https://www.youtube.com/watch?v=v--IqqusnNQ
+[67.0744743347167969] 2018-01-10 21:47:39,657 - FFMPEG - musicbot.player | In player.py::MainThread(6540), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-v--IqqusnNQ-David_Bowie_-_Life_On_Mars.webm
+[67.0789575576782227] 2018-01-10 21:47:39,661 - DEBUG - musicbot.bot | In bot.py::MainThread(6540), line 781 in serialize_queue: Serializing queue for 241747637131280384
+[86.5030126571655273] 2018-01-10 21:47:59,085 - INFO - musicbot.bot | In bot.py::MainThread(6540), line 2395 in on_message: 183768588476219392/Zylos#0951: !play go to war
+[95.9153907299041748] 2018-01-10 21:48:08,497 - DEBUG - musicbot.bot | In bot.py::MainThread(6540), line 781 in serialize_queue: Serializing queue for 241747637131280384
+[95.9223911762237549] 2018-01-10 21:48:08,504 - INFO - musicbot.entry | In entry.py::MainThread(6540), line 195 in _download: Download cached: https://www.youtube.com/watch?v=Q6c8X_s1h9Y
+[148.6600220203399658] 2018-01-10 21:49:01,242 - INFO - musicbot.bot | In bot.py::MainThread(6540), line 2395 in on_message: 183768588476219392/Zylos#0951: !play how you remind me
+[225.0804159641265869] 2018-01-10 21:50:17,663 - DEBUG - musicbot.bot | In bot.py::MainThread(6540), line 781 in serialize_queue: Serializing queue for 241747637131280384
+[275.6497144699096680] 2018-01-10 21:51:08,232 - INFO - musicbot.bot | In bot.py::MainThread(6540), line 2395 in on_message: 184516188540239873/Mitchel#7505: !play fried noodles filthy frank
+[305.7392435073852539] 2018-01-10 21:51:38,321 - DEBUG - musicbot.bot | In bot.py::MainThread(6540), line 781 in serialize_queue: Serializing queue for 241747637131280384
+[308.9808521270751953] 2018-01-10 21:51:41,563 - FFMPEG - musicbot.player | In player.py::MainThread(6540), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-Q6c8X_s1h9Y-Nothing_More_-_Go_To_War_Official_Video.webm
+[308.9848527908325195] 2018-01-10 21:51:41,567 - DEBUG - musicbot.bot | In bot.py::MainThread(6540), line 781 in serialize_queue: Serializing queue for 241747637131280384
+[308.9948539733886719] 2018-01-10 21:51:41,577 - INFO - musicbot.entry | In entry.py::MainThread(6540), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=1cQh1ccqu8M
+[308.9988543987274170] 2018-01-10 21:51:41,581 - DEBUG - musicbot.bot | In bot.py::MainThread(6540), line 781 in serialize_queue: Serializing queue for 241747637131280384
+[336.8322503566741943] 2018-01-10 21:52:09,414 - INFO - musicbot.entry | In entry.py::MainThread(6540), line 226 in _really_download: Download complete: https://www.youtube.com/watch?v=1cQh1ccqu8M
+[556.1675224304199219] 2018-01-10 21:55:48,750 - FFMPEG - musicbot.player | In player.py::MainThread(6540), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-1cQh1ccqu8M-Nickelback_-_How_You_Remind_Me.webm
+[556.1765239238739014] 2018-01-10 21:55:48,759 - DEBUG - musicbot.bot | In bot.py::MainThread(6540), line 781 in serialize_queue: Serializing queue for 241747637131280384
+[556.1850247383117676] 2018-01-10 21:55:48,767 - INFO - musicbot.entry | In entry.py::MainThread(6540), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=Ani_6IRV20A
+[556.1905255317687988] 2018-01-10 21:55:48,773 - DEBUG - musicbot.bot | In bot.py::MainThread(6540), line 781 in serialize_queue: Serializing queue for 241747637131280384
+[561.5103297233581543] 2018-01-10 21:55:54,092 - INFO - musicbot.entry | In entry.py::MainThread(6540), line 226 in _really_download: Download complete: https://www.youtube.com/watch?v=Ani_6IRV20A
+[783.9181065559387207] 2018-01-10 21:59:36,500 - FFMPEG - musicbot.player | In player.py::MainThread(6540), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-Ani_6IRV20A-FRIED_NOODLES.webm
+[783.9221065044403076] 2018-01-10 21:59:36,504 - DEBUG - musicbot.bot | In bot.py::MainThread(6540), line 781 in serialize_queue: Serializing queue for 241747637131280384
+[783.9291076660156250] 2018-01-10 21:59:36,511 - DEBUG - musicbot.bot | In bot.py::MainThread(6540), line 781 in serialize_queue: Serializing queue for 241747637131280384
+[955.2035531997680664] 2018-01-10 22:02:27,786 - DEBUG - musicbot.bot | In bot.py::MainThread(6540), line 781 in serialize_queue: Serializing queue for 241747637131280384
+[1243.2777783870697021] 2018-01-10 22:07:15,860 - INFO - musicbot.bot | In bot.py::MainThread(6540), line 2395 in on_message: 183768588476219392/Zylos#0951: !shutdown
+[1244.2714035511016846] 2018-01-10 22:07:16,853 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(6540), line 2564 in on_voice_state_update: Voice state update for 400533894744637440/Personality#1383 on The Wild Sneks 🐍/Sugar Mansion -> [DISCONNECT]
+[1244.323410511] launcher-INFO: All done.
